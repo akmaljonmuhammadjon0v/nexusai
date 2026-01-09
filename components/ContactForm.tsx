@@ -1,3 +1,5 @@
+'use client';
+
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
@@ -7,7 +9,7 @@ import { Textarea } from '@/components/ui/textarea';
 import { useToast } from '@/hooks/use-toast';
 import { supabase } from '@/integrations/supabase/client';
 import { Mail, User, MessageSquare, Send } from 'lucide-react';
-import { z } from 'zod';
+import { z, ZodError } from 'zod';
 import { useTranslations } from 'next-intl';
 
 const ContactForm = () => {
@@ -36,22 +38,26 @@ const ContactForm = () => {
 	});
 
 	const validateForm = () => {
-		try {
-			contactSchema.parse({ name, email, message });
-			setErrors({});
-			return true;
-		} catch (error) {
-			if (error instanceof z.ZodError) {
-				const newErrors: { name?: string; email?: string; message?: string } =
-					{};
-				error.errors.forEach(err => {
-					const field = err.path[0] as 'name' | 'email' | 'message';
-					newErrors[field] = err.message;
-				});
-				setErrors(newErrors);
-			}
+		const result = contactSchema.safeParse({ name, email, message });
+
+		if (!result.success) {
+			const newErrors: {
+				name?: string;
+				email?: string;
+				message?: string;
+			} = {};
+
+			result.error.errors.forEach(err => {
+				const field = err.path[0] as 'name' | 'email' | 'message';
+				newErrors[field] = err.message;
+			});
+
+			setErrors(newErrors);
 			return false;
 		}
+
+		setErrors({});
+		return true;
 	};
 
 	const handleSubmit = async (e: React.FormEvent) => {
