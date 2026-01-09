@@ -39,23 +39,20 @@ const ContactForm = () => {
 
 	const validateForm = () => {
 		const result = contactSchema.safeParse({ name, email, message });
-
 		if (!result.success) {
-			const newErrors: {
-				name?: string;
-				email?: string;
-				message?: string;
-			} = {};
-
-			result.error.errors.forEach(err => {
+			const newErrors: { name?: string; email?: string; message?: string } = {};
+			const zodError = result.error as z.ZodError<{
+				name: string;
+				email: string;
+				message: string;
+			}>;
+			zodError.errors.forEach(err => {
 				const field = err.path[0] as 'name' | 'email' | 'message';
 				newErrors[field] = err.message;
 			});
-
 			setErrors(newErrors);
 			return false;
 		}
-
 		setErrors({});
 		return true;
 	};
