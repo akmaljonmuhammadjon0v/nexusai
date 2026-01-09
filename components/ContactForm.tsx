@@ -9,7 +9,7 @@ import { Textarea } from '@/components/ui/textarea';
 import { useToast } from '@/hooks/use-toast';
 import { supabase } from '@/integrations/supabase/client';
 import { Mail, User, MessageSquare, Send } from 'lucide-react';
-import { z, ZodError } from 'zod';
+
 import { useTranslations } from 'next-intl';
 
 const ContactForm = () => {
@@ -17,50 +17,14 @@ const ContactForm = () => {
 	const [email, setEmail] = useState('');
 	const [message, setMessage] = useState('');
 	const [loading, setLoading] = useState(false);
-	const [errors, setErrors] = useState<{
-		name?: string;
-		email?: string;
-		message?: string;
-	}>({});
+
 	const { toast } = useToast();
 	const t = useTranslations('contact');
 	const tForm = useTranslations('contact.form');
 	const tCommon = useTranslations('common');
 
-	const contactSchema = z.object({
-		name: z.string().trim().min(1, tCommon('error')).max(100, tCommon('error')),
-		email: z.string().trim().email(tCommon('error')).max(255, tCommon('error')),
-		message: z
-			.string()
-			.trim()
-			.min(1, tCommon('error'))
-			.max(1000, tCommon('error')),
-	});
-
-	const validateForm = () => {
-		const result = contactSchema.safeParse({ name, email, message });
-		if (!result.success) {
-			const newErrors: { name?: string; email?: string; message?: string } = {};
-			const zodError = result.error as z.ZodError<{
-				name: string;
-				email: string;
-				message: string;
-			}>;
-			zodError.errors.forEach(err => {
-				const field = err.path[0] as 'name' | 'email' | 'message';
-				newErrors[field] = err.message;
-			});
-			setErrors(newErrors);
-			return false;
-		}
-		setErrors({});
-		return true;
-	};
-
 	const handleSubmit = async (e: React.FormEvent) => {
 		e.preventDefault();
-
-		if (!validateForm()) return;
 
 		setLoading(true);
 
@@ -115,9 +79,6 @@ const ContactForm = () => {
 							className='pl-10'
 						/>
 					</div>
-					{errors.name && (
-						<p className='text-sm text-destructive'>{errors.name}</p>
-					)}
 				</div>
 
 				<div className='space-y-2'>
@@ -133,9 +94,6 @@ const ContactForm = () => {
 							className='pl-10'
 						/>
 					</div>
-					{errors.email && (
-						<p className='text-sm text-destructive'>{errors.email}</p>
-					)}
 				</div>
 
 				<div className='space-y-2'>
@@ -150,9 +108,6 @@ const ContactForm = () => {
 							className='pl-10 min-h-30'
 						/>
 					</div>
-					{errors.message && (
-						<p className='text-sm text-destructive'>{errors.message}</p>
-					)}
 				</div>
 
 				<Button type='submit' className='w-full' disabled={loading}>
