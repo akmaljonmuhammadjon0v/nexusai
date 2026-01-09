@@ -1,0 +1,252 @@
+{
+	"nav": {
+		"features": "Imkoniyatlar",
+		"pricing": "Narxlar",
+		"about": "Biz haqimizda",
+		"contact": "Aloqa",
+		"login": "Kirish",
+		"start": "Boshlash",
+		"logout": "Chiqish",
+		"dashboard": "Dashboard"
+	},
+	"hero": {
+		"badge": "AI yordamchi yangi avlodi",
+		"title": "Kelajak allaqachon",
+		"titleHighlight": "shu yerda",
+		"description": "NexusAI bilan g'oyalaringizni hayotga tatbiq eting. Sun'iy intellekt yordamida samaradorlikni oshiring va vaqtingizni tejang.",
+		"startFree": "Bepul boshlash",
+		"learnMore": "Batafsil",
+		"stats": {
+			"users": "Foydalanuvchilar",
+			"conversations": "Suhbatlar",
+			"satisfaction": "Mamnunlik"
+		}
+	},
+	"features": {
+		"title": "Kuchli imkoniyatlar",
+		"description": "NexusAI sizning kundalik vazifalaringizni osonlashtirish uchun mo'ljallangan",
+		"smartChat": {
+			"title": "Aqlli suhbat",
+			"description": "Sun'iy intellekt bilan tabiiy tilda muloqot qiling"
+		},
+		"lightning": {
+			"title": "Tez javoblar",
+			"description": "Bir zumda aniq va foydali javoblar oling"
+		},
+		"security": {
+			"title": "Xavfsizlik",
+			"description": "Ma'lumotlaringiz to'liq himoyalangan"
+		},
+		"multilingual": {
+			"title": "Ko'p tilli",
+			"description": "O'zbek, ingliz va rus tillarida ishlaydi"
+		},
+		"analytics": {
+			"title": "Tahlil",
+			"description": "Faoliyatingiz haqida batafsil hisobotlar"
+		},
+		"integration": {
+			"title": "Integratsiya",
+			"description": "Boshqa xizmatlar bilan osongina bog'laning"
+		}
+	},
+	"pricing": {
+		"title": "Oddiy va tushunarli narxlar",
+		"description": "O'zingizga mos rejani tanlang",
+		"free": {
+			"name": "Bepul",
+			"description": "Boshlash uchun",
+			"price": "0",
+			"features": {
+				"messages": "Kuniga 10 ta xabar",
+				"history": "7 kunlik tarix",
+				"support": "Asosiy yordam"
+			}
+		},
+		"pro": {
+			"name": "Pro",
+			"description": "Professional foydalanuvchilar uchun",
+			"price": "9.99",
+			"popular": "Mashhur",
+			"features": {
+				"messages": "Cheksiz xabarlar",
+				"history": "Cheksiz tarix",
+				"support": "Ustuvor yordam",
+				"analytics": "Kengaytirilgan tahlil",
+				"api": "API kirish"
+			}
+		},
+		"currentPlan": "Joriy reja",
+		"choosePlan": "Tanlash",
+		"upgrade": "Yangilash",
+		"manage": "Boshqarish"
+	},
+	"testimonials": {
+		"title": "Minglab odamlar",
+		"titleHighlight": "ishonadi",
+		"description": "NexusAI bilan muvaffaqiyatga erishadigan minglab mutaxassislarga qo'shiling.",
+		"items": [
+			{
+				"name": "Sarah Johnson",
+				"role": "CEO, TechFlow",
+				"content": "NexusAI bizning jamoamiz ishini butunlay o'zgartirdi. Uni joriy etganimizdan beri samaradorlik 300% ga oshdi."
+			},
+			{
+				"name": "Michael Chen",
+				"role": "Mahsulot menejeri, StartupX",
+				"content": "AI tahlillari juda aniq. Bu 24/7 jamoada ma'lumotlar olimi bor kabi. Haqiqatan ham o'yin o'zgartiruvchi."
+			},
+			{
+				"name": "Emily Rodriguez",
+				"role": "Asoschisi, DesignLab",
+				"content": "Bu yilgi eng yaxshi sarmoya. Faqat avtomatlashtirish funksiyalari har hafta son-sanoqsiz soatlarni tejab berdi."
+			}
+		]
+	},
+	"contact": {
+		"title": "Biz bilan bog'laning",
+		"description": "Savollaringiz bormi? Biz yordam berishga tayyormiz",
+		"email": "Email",
+		"phone": "Telefon",
+		"address": "Manzil",
+		"form": {
+			"name": "Ismingiz",
+			"email": "Email manzilingiz",
+			"message": "Xabaringiz",
+			"send": "Yuborish",
+			"sending": "Yuborilmoqda..."
+		}
+	},
+	"cta": {
+		"title": "Bugun boshlang",
+		"description": "NexusAI bilan samaradorligingizni oshiring va vaqtingizni tejang",
+		"startFree": "Bepul boshlash",
+		"scheduleDemo": "Demo so'rash"
+	},
+	"footer": {
+		"tagline": "Sun'iy intellekt yordamchingiz",
+		"product": "Mahsulot",
+		"company": "Kompaniya",
+		"resources": "Resurslar",
+		"legal": "Huquqiy",
+		"allRights": "Barcha huquqlar himoyalangan",
+		"productLinks": {
+			"features": "Imkoniyatlar",
+			"pricing": "Narxlar",
+			"integrations": "Integratsiyalar",
+			"changelog": "O'zgarishlar jurnali"
+		},
+		"companyLinks": {
+			"about": "Biz haqimizda",
+			"blog": "Blog",
+			"careers": "Karyera",
+			"press": "Matbuot"
+		},
+		"resourcesLinks": {
+			"documentation": "Hujjatlar",
+			"helpCenter": "Yordam markazi",
+			"apiReference": "API ma'lumotnomasi",
+			"community": "Jamiyat"
+		},
+		"legalLinks": {
+			"privacy": "Maxfiylik",
+			"terms": "Shartlar",
+			"security": "Xavfsizlik",
+			"cookies": "Cookie-fayllar"
+		},
+		"socials": {
+			"twitter": "Twitter",
+			"linkedin": "LinkedIn",
+			"github": "GitHub"
+		}
+	},
+	"auth": {
+		"login": "Kirish",
+		"signup": "Ro'yxatdan o'tish",
+		"email": "Email",
+		"password": "Parol",
+		"fullName": "To'liq ism",
+		"loginButton": "Kirish",
+		"signupButton": "Ro'yxatdan o'tish",
+		"noAccount": "Akkauntingiz yo'qmi?",
+		"hasAccount": "Akkauntingiz bormi?",
+		"welcomeBack": "Qaytganingizdan xursandmiz!",
+		"createAccount": "Yangi akkount yarating"
+	},
+	"chat": {
+		"placeholder": "Xabar yozing...",
+		"send": "Yuborish",
+		"newChat": "Yangi suhbat",
+		"deleteAll": "Hammasini o'chirish",
+		"deleteConfirm": "Haqiqatan ham barcha suhbatlarni o'chirmoqchimisiz?",
+		"cancel": "Bekor qilish",
+		"delete": "O'chirish",
+		"welcome": "Salom! Men NexusAI - sizning AI yordamchingiz. Sizga qanday yordam bera olaman?",
+		"conversations": "Suhbatlar",
+		"noConversations": "Hozircha suhbatlar yo'q",
+		"upgradeTitle": "Pro rejaga o'ting",
+		"upgradeDesc": "Cheksiz xabarlar va boshqa imkoniyatlar uchun"
+	},
+	"settings": {
+		"title": "Sozlamalar",
+		"subtitle": "Hisobingizni boshqaring",
+		"profile": "Profil",
+		"fullName": "To'liq ism",
+		"fullNamePlaceholder": "Ismingizni kiriting",
+		"email": "Email",
+		"emailCantChange": "Emailni o'zgartirib bo'lmaydi",
+		"save": "Saqlash",
+		"saving": "Saqlanmoqda...",
+		"chat": "Chat",
+		"clearHistory": "Chat tarixini tozalash",
+		"clearHistoryDesc": "Barcha suhbatlar va xabarlarni o'chirish",
+		"clear": "Tozalash",
+		"clearConfirmTitle": "Chat tarixini tozalash",
+		"clearConfirmDesc": "Bu amalni qaytarib bo'lmaydi. Barcha suhbatlar va xabarlar o'chiriladi.",
+		"notifications": "Bildirishnomalar",
+		"emailNotifications": "Email bildirishnomalari",
+		"emailNotificationsDesc": "Yangiliklar va takliflar haqida xabar oling",
+		"appearance": "Ko'rinish",
+		"darkMode": "Qorong'i rejim",
+		"darkModeDesc": "Qorong'i mavzuni yoqish",
+		"language": "Til",
+		"security": "Xavfsizlik",
+		"changePassword": "Parolni o'zgartirish",
+		"deleteAccount": "Hisobni o'chirish",
+		"deleteAccountDesc": "Bu amalni qaytarib bo'lmaydi",
+		"deleteConfirmTitle": "Hisobni o'chirish",
+		"deleteConfirmDesc": "Bu amalni qaytarib bo'lmaydi. Barcha ma'lumotlaringiz o'chiriladi.",
+		"logout": "Chiqish",
+		"aiChat": "AI Chat",
+		"statistics": "Statistika"
+	},
+	"statistics": {
+		"title": "Statistika",
+		"subtitle": "Foydalanish statistikangizni ko'ring",
+		"totalMessages": "Jami xabarlar",
+		"todayMessages": "Bugungi xabarlar",
+		"today": "Bugun",
+		"todayCount": "bugun",
+		"activeDays": "Faol kunlar",
+		"last7Days": "Oxirgi 7 kun",
+		"conversations": "Suhbatlar",
+		"totalConversations": "Jami suhbatlar",
+		"weeklyActivity": "Haftalik faollik",
+		"weeklyTrend": "Haftalik trend",
+		"aiChat": "AI Chat",
+		"statistics": "Statistika",
+		"settings": "Sozlamalar",
+		"logout": "Chiqish",
+		"chat": "Chat"
+	},
+	"common": {
+		"loading": "Yuklanmoqda...",
+		"error": "Xatolik yuz berdi",
+		"success": "Muvaffaqiyatli",
+		"cancel": "Bekor qilish",
+		"save": "Saqlash",
+		"delete": "O'chirish",
+		"edit": "Tahrirlash",
+		"back": "Orqaga"
+	}
+}

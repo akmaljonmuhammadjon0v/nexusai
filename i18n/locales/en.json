@@ -1,0 +1,252 @@
+{
+	"nav": {
+		"features": "Features",
+		"pricing": "Pricing",
+		"about": "About",
+		"contact": "Contact",
+		"login": "Login",
+		"start": "Get Started",
+		"logout": "Logout",
+		"dashboard": "Dashboard"
+	},
+	"hero": {
+		"badge": "Next-gen AI Assistant",
+		"title": "The future is",
+		"titleHighlight": "here",
+		"description": "Bring your ideas to life with NexusAI. Increase productivity and save time with artificial intelligence.",
+		"startFree": "Start Free",
+		"learnMore": "Learn More",
+		"stats": {
+			"users": "Users",
+			"conversations": "Conversations",
+			"satisfaction": "Satisfaction"
+		}
+	},
+	"features": {
+		"title": "Powerful Features",
+		"description": "NexusAI is designed to simplify your daily tasks",
+		"smartChat": {
+			"title": "Smart Chat",
+			"description": "Communicate naturally with artificial intelligence"
+		},
+		"lightning": {
+			"title": "Fast Responses",
+			"description": "Get accurate and helpful answers instantly"
+		},
+		"security": {
+			"title": "Security",
+			"description": "Your data is fully protected"
+		},
+		"multilingual": {
+			"title": "Multilingual",
+			"description": "Works in Uzbek, English and Russian"
+		},
+		"analytics": {
+			"title": "Analytics",
+			"description": "Detailed reports about your activity"
+		},
+		"integration": {
+			"title": "Integration",
+			"description": "Easily connect with other services"
+		}
+	},
+	"pricing": {
+		"title": "Simple and Clear Pricing",
+		"description": "Choose the plan that suits you",
+		"free": {
+			"name": "Free",
+			"description": "To get started",
+			"price": "0",
+			"features": {
+				"messages": "10 messages per day",
+				"history": "7-day history",
+				"support": "Basic support"
+			}
+		},
+		"pro": {
+			"name": "Pro",
+			"description": "For professional users",
+			"price": "9.99",
+			"popular": "Popular",
+			"features": {
+				"messages": "Unlimited messages",
+				"history": "Unlimited history",
+				"support": "Priority support",
+				"analytics": "Advanced analytics",
+				"api": "API access"
+			}
+		},
+		"currentPlan": "Current Plan",
+		"choosePlan": "Choose",
+		"upgrade": "Upgrade",
+		"manage": "Manage"
+	},
+	"testimonials": {
+		"title": "Loved by",
+		"titleHighlight": "Thousands",
+		"description": "Join thousands of professionals who trust NexusAI to power their success.",
+		"items": [
+			{
+				"name": "Sarah Johnson",
+				"role": "CEO, TechFlow",
+				"content": "NexusAI has completely transformed how our team works. We've seen a 300% increase in productivity since implementing it."
+			},
+			{
+				"name": "Michael Chen",
+				"role": "Product Manager, StartupX",
+				"content": "The AI insights are incredibly accurate. It's like having a data scientist on the team 24/7. Absolutely game-changing."
+			},
+			{
+				"name": "Emily Rodriguez",
+				"role": "Founder, DesignLab",
+				"content": "Best investment we've made this year. The automation features alone have saved us countless hours every week."
+			}
+		]
+	},
+	"contact": {
+		"title": "Contact Us",
+		"description": "Have questions? We're ready to help",
+		"email": "Email",
+		"phone": "Phone",
+		"address": "Address",
+		"form": {
+			"name": "Your Name",
+			"email": "Your Email",
+			"message": "Your Message",
+			"send": "Send",
+			"sending": "Sending..."
+		}
+	},
+	"cta": {
+		"title": "Start Today",
+		"description": "Increase your productivity and save time with NexusAI",
+		"startFree": "Start Free",
+		"scheduleDemo": "Schedule Demo"
+	},
+	"footer": {
+		"tagline": "Your AI Assistant",
+		"product": "Product",
+		"company": "Company",
+		"resources": "Resources",
+		"legal": "Legal",
+		"allRights": "All rights reserved",
+		"productLinks": {
+			"features": "Features",
+			"pricing": "Pricing",
+			"integrations": "Integrations",
+			"changelog": "Changelog"
+		},
+		"companyLinks": {
+			"about": "About",
+			"blog": "Blog",
+			"careers": "Careers",
+			"press": "Press"
+		},
+		"resourcesLinks": {
+			"documentation": "Documentation",
+			"helpCenter": "Help Center",
+			"apiReference": "API Reference",
+			"community": "Community"
+		},
+		"legalLinks": {
+			"privacy": "Privacy",
+			"terms": "Terms",
+			"security": "Security",
+			"cookies": "Cookies"
+		},
+		"socials": {
+			"twitter": "Twitter",
+			"linkedin": "LinkedIn",
+			"github": "GitHub"
+		}
+	},
+	"auth": {
+		"login": "Login",
+		"signup": "Sign Up",
+		"email": "Email",
+		"password": "Password",
+		"fullName": "Full Name",
+		"loginButton": "Login",
+		"signupButton": "Sign Up",
+		"noAccount": "Don't have an account?",
+		"hasAccount": "Already have an account?",
+		"welcomeBack": "Welcome back!",
+		"createAccount": "Create a new account"
+	},
+	"chat": {
+		"placeholder": "Type a message...",
+		"send": "Send",
+		"newChat": "New Chat",
+		"deleteAll": "Delete All",
+		"deleteConfirm": "Are you sure you want to delete all conversations?",
+		"cancel": "Cancel",
+		"delete": "Delete",
+		"welcome": "Hello! I'm NexusAI - your AI assistant. How can I help you?",
+		"conversations": "Conversations",
+		"noConversations": "No conversations yet",
+		"upgradeTitle": "Upgrade to Pro",
+		"upgradeDesc": "For unlimited messages and more features"
+	},
+	"settings": {
+		"title": "Settings",
+		"subtitle": "Manage your account",
+		"profile": "Profile",
+		"fullName": "Full Name",
+		"fullNamePlaceholder": "Enter your name",
+		"email": "Email",
+		"emailCantChange": "Email cannot be changed",
+		"save": "Save",
+		"saving": "Saving...",
+		"chat": "Chat",
+		"clearHistory": "Clear chat history",
+		"clearHistoryDesc": "Delete all conversations and messages",
+		"clear": "Clear",
+		"clearConfirmTitle": "Clear chat history",
+		"clearConfirmDesc": "This action cannot be undone. All conversations and messages will be deleted.",
+		"notifications": "Notifications",
+		"emailNotifications": "Email notifications",
+		"emailNotificationsDesc": "Receive news and offers",
+		"appearance": "Appearance",
+		"darkMode": "Dark mode",
+		"darkModeDesc": "Enable dark theme",
+		"language": "Language",
+		"security": "Security",
+		"changePassword": "Change password",
+		"deleteAccount": "Delete account",
+		"deleteAccountDesc": "This action cannot be undone",
+		"deleteConfirmTitle": "Delete account",
+		"deleteConfirmDesc": "This action cannot be undone. All your data will be deleted.",
+		"logout": "Logout",
+		"aiChat": "AI Chat",
+		"statistics": "Statistics"
+	},
+	"statistics": {
+		"title": "Statistics",
+		"subtitle": "View your usage statistics",
+		"totalMessages": "Total messages",
+		"todayMessages": "Today's messages",
+		"today": "Today",
+		"todayCount": "today",
+		"activeDays": "Active days",
+		"last7Days": "Last 7 days",
+		"conversations": "Conversations",
+		"totalConversations": "Total conversations",
+		"weeklyActivity": "Weekly activity",
+		"weeklyTrend": "Weekly trend",
+		"aiChat": "AI Chat",
+		"statistics": "Statistics",
+		"settings": "Settings",
+		"logout": "Logout",
+		"chat": "Chat"
+	},
+	"common": {
+		"loading": "Loading...",
+		"error": "An error occurred",
+		"success": "Success",
+		"cancel": "Cancel",
+		"save": "Save",
+		"delete": "Delete",
+		"edit": "Edit",
+		"back": "Back"
+	}
+}

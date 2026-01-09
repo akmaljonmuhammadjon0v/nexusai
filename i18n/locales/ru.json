@@ -1,0 +1,252 @@
+{
+	"nav": {
+		"features": "Возможности",
+		"pricing": "Цены",
+		"about": "О нас",
+		"contact": "Контакты",
+		"login": "Войти",
+		"start": "Начать",
+		"logout": "Выйти",
+		"dashboard": "Панель"
+	},
+	"hero": {
+		"badge": "ИИ-помощник нового поколения",
+		"title": "Будущее уже",
+		"titleHighlight": "здесь",
+		"description": "Воплотите свои идеи в жизнь с NexusAI. Повысьте продуктивность и экономьте время с искусственным интеллектом.",
+		"startFree": "Начать бесплатно",
+		"learnMore": "Подробнее",
+		"stats": {
+			"users": "Пользователи",
+			"conversations": "Разговоры",
+			"satisfaction": "Удовлетворённость"
+		}
+	},
+	"features": {
+		"title": "Мощные возможности",
+		"description": "NexusAI создан для упрощения ваших повседневных задач",
+		"smartChat": {
+			"title": "Умный чат",
+			"description": "Общайтесь естественно с искусственным интеллектом"
+		},
+		"lightning": {
+			"title": "Быстрые ответы",
+			"description": "Получайте точные и полезные ответы мгновенно"
+		},
+		"security": {
+			"title": "Безопасность",
+			"description": "Ваши данные полностью защищены"
+		},
+		"multilingual": {
+			"title": "Многоязычность",
+			"description": "Работает на узбекском, английском и русском языках"
+		},
+		"analytics": {
+			"title": "Аналитика",
+			"description": "Подробные отчёты о вашей активности"
+		},
+		"integration": {
+			"title": "Интеграция",
+			"description": "Легко подключайтесь к другим сервисам"
+		}
+	},
+	"pricing": {
+		"title": "Простые и понятные цены",
+		"description": "Выберите подходящий план",
+		"free": {
+			"name": "Бесплатно",
+			"description": "Для начала",
+			"price": "0",
+			"features": {
+				"messages": "10 сообщений в день",
+				"history": "История за 7 дней",
+				"support": "Базовая поддержка"
+			}
+		},
+		"pro": {
+			"name": "Pro",
+			"description": "Для профессионалов",
+			"price": "9.99",
+			"popular": "Популярный",
+			"features": {
+				"messages": "Безлимитные сообщения",
+				"history": "Безлимитная история",
+				"support": "Приоритетная поддержка",
+				"analytics": "Расширенная аналитика",
+				"api": "Доступ к API"
+			}
+		},
+		"currentPlan": "Текущий план",
+		"choosePlan": "Выбрать",
+		"upgrade": "Улучшить",
+		"manage": "Управление"
+	},
+	"testimonials": {
+		"title": "Нас любят",
+		"titleHighlight": "тысячи",
+		"description": "Присоединяйтесь к тысячам профессионалов, которые доверяют NexusAI для достижения успеха.",
+		"items": [
+			{
+				"name": "Сара Джонсон",
+				"role": "CEO, TechFlow",
+				"content": "NexusAI полностью изменил работу нашей команды. С момента внедрения производительность выросла на 300%."
+			},
+			{
+				"name": "Майкл Чен",
+				"role": "Продакт-менеджер, StartupX",
+				"content": "ИИ-аналитика невероятно точна. Это как иметь дата-сайентиста в команде 24/7. Настоящий прорыв."
+			},
+			{
+				"name": "Эмили Родригес",
+				"role": "Основатель, DesignLab",
+				"content": "Лучшая инвестиция этого года. Одни только функции автоматизации экономят нам бесчисленные часы каждую неделю."
+			}
+		]
+	},
+	"contact": {
+		"title": "Свяжитесь с нами",
+		"description": "Есть вопросы? Мы готовы помочь",
+		"email": "Email",
+		"phone": "Телефон",
+		"address": "Адрес",
+		"form": {
+			"name": "Ваше имя",
+			"email": "Ваш email",
+			"message": "Ваше сообщение",
+			"send": "Отправить",
+			"sending": "Отправка..."
+		}
+	},
+	"cta": {
+		"title": "Начните сегодня",
+		"description": "Повысьте продуктивность и экономьте время с NexusAI",
+		"startFree": "Начать бесплатно",
+		"scheduleDemo": "Запросить демо"
+	},
+	"footer": {
+		"tagline": "Ваш ИИ-помощник",
+		"product": "Продукт",
+		"company": "Компания",
+		"resources": "Ресурсы",
+		"legal": "Правовая информация",
+		"allRights": "Все права защищены",
+		"productLinks": {
+			"features": "Возможности",
+			"pricing": "Цены",
+			"integrations": "Интеграции",
+			"changelog": "Журнал изменений"
+		},
+		"companyLinks": {
+			"about": "О нас",
+			"blog": "Блог",
+			"careers": "Карьера",
+			"press": "Пресса"
+		},
+		"resourcesLinks": {
+			"documentation": "Документация",
+			"helpCenter": "Центр помощи",
+			"apiReference": "Справочник API",
+			"community": "Сообщество"
+		},
+		"legalLinks": {
+			"privacy": "Конфиденциальность",
+			"terms": "Условия",
+			"security": "Безопасность",
+			"cookies": "Куки"
+		},
+		"socials": {
+			"twitter": "Twitter",
+			"linkedin": "LinkedIn",
+			"github": "GitHub"
+		}
+	},
+	"auth": {
+		"login": "Войти",
+		"signup": "Регистрация",
+		"email": "Email",
+		"password": "Пароль",
+		"fullName": "Полное имя",
+		"loginButton": "Войти",
+		"signupButton": "Зарегистрироваться",
+		"noAccount": "Нет аккаунта?",
+		"hasAccount": "Уже есть аккаунт?",
+		"welcomeBack": "С возвращением!",
+		"createAccount": "Создайте новый аккаунт"
+	},
+	"chat": {
+		"placeholder": "Введите сообщение...",
+		"send": "Отправить",
+		"newChat": "Новый чат",
+		"deleteAll": "Удалить всё",
+		"deleteConfirm": "Вы уверены, что хотите удалить все разговоры?",
+		"cancel": "Отмена",
+		"delete": "Удалить",
+		"welcome": "Привет! Я NexusAI - ваш ИИ-помощник. Чем могу помочь?",
+		"conversations": "Разговоры",
+		"noConversations": "Пока нет разговоров",
+		"upgradeTitle": "Перейти на Pro",
+		"upgradeDesc": "Для безлимитных сообщений и других возможностей"
+	},
+	"settings": {
+		"title": "Настройки",
+		"subtitle": "Управляйте своим аккаунтом",
+		"profile": "Профиль",
+		"fullName": "Полное имя",
+		"fullNamePlaceholder": "Введите ваше имя",
+		"email": "Email",
+		"emailCantChange": "Email нельзя изменить",
+		"save": "Сохранить",
+		"saving": "Сохранение...",
+		"chat": "Чат",
+		"clearHistory": "Очистить историю чата",
+		"clearHistoryDesc": "Удалить все разговоры и сообщения",
+		"clear": "Очистить",
+		"clearConfirmTitle": "Очистить историю чата",
+		"clearConfirmDesc": "Это действие нельзя отменить. Все разговоры и сообщения будут удалены.",
+		"notifications": "Уведомления",
+		"emailNotifications": "Email уведомления",
+		"emailNotificationsDesc": "Получать новости и предложения",
+		"appearance": "Внешний вид",
+		"darkMode": "Тёмный режим",
+		"darkModeDesc": "Включить тёмную тему",
+		"language": "Язык",
+		"security": "Безопасность",
+		"changePassword": "Изменить пароль",
+		"deleteAccount": "Удалить аккаунт",
+		"deleteAccountDesc": "Это действие нельзя отменить",
+		"deleteConfirmTitle": "Удалить аккаунт",
+		"deleteConfirmDesc": "Это действие нельзя отменить. Все ваши данные будут удалены.",
+		"logout": "Выйти",
+		"aiChat": "AI Чат",
+		"statistics": "Статистика"
+	},
+	"statistics": {
+		"title": "Статистика",
+		"subtitle": "Просмотр статистики использования",
+		"totalMessages": "Всего сообщений",
+		"todayMessages": "Сообщений сегодня",
+		"today": "Сегодня",
+		"todayCount": "сегодня",
+		"activeDays": "Активных дней",
+		"last7Days": "Последние 7 дней",
+		"conversations": "Разговоры",
+		"totalConversations": "Всего разговоров",
+		"weeklyActivity": "Недельная активность",
+		"weeklyTrend": "Недельный тренд",
+		"aiChat": "AI Чат",
+		"statistics": "Статистика",
+		"settings": "Настройки",
+		"logout": "Выйти",
+		"chat": "Чат"
+	},
+	"common": {
+		"loading": "Загрузка...",
+		"error": "Произошла ошибка",
+		"success": "Успешно",
+		"cancel": "Отмена",
+		"save": "Сохранить",
+		"delete": "Удалить",
+		"edit": "Редактировать",
+		"back": "Назад"
+	}
+}
